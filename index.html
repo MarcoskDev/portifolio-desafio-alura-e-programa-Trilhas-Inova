@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="css/style.css" />
+      <link rel="stylesheet" href="css/animacoes.css" />
+      <link
+         rel="shortcut icon"
+         href="img/favicon-minha-logo.png"
+         type="image/x-icon"
+      />
+      <link
+         rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.4/css/boxicons.min.css"
+         integrity="sha512-cn16Qw8mzTBKpu08X0fwhTSv02kK/FojjNLz0bwp2xJ4H+yalwzXKFw/5cLzuBZCxGWIA+95X4skzvo8STNtSg=="
+         crossorigin="anonymous"
+         referrerpolicy="no-referrer"
+      />
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+      <title>Portifolio - MarcosKdev</title>
+   </head>
+   <body>
+      <header class="cabecalho">
+         <div class="logo">
+            <a href="index.html">MarcosKdev</a>
+         </div>
+         <nav class="navbar">
+            <a class="active" style="--i: 1" href="#home">
+               <i class="bx bx-home"></i>
+               Home
+            </a>
+            <a style="--i: 2" href="#sobre">
+               <i class="bx bx-desktop"></i>
+               Habilidades
+            </a>
+            <a style="--i: 3" href="#projetos">
+               <i class="bx bx-heart"></i>
+               Projetos
+            </a>
+         </nav>
+      </header>
+
+      <main id="home" class="principal">
+         <div class="left">
+            <h2>Hello, i am</h2>
+            <h1>Marcos <span>Kaynan</span></h1>
+            <h2>
+               Sou desenvolvedor <span>Front-end</span> e
+               <span>Uix-design</span>
+            </h2>
+            <p>
+               Sou Técnico em Redes de Computadores com experiência em robótica
+               LEGO EV3 e Arduino. Apaixonado por tecnologia, busco sempre
+               aprimorar meus conhecimentos e habilidades na área.
+            </p>
+
+            <div class="social__media">
+               <a style="--i: 4" href="https://www.instagram.com/marcoskdev/">
+                  <i class="bx bxl-instagram-alt"></i>
+               </a>
+               <a
+                  style="--i: 5"
+                  href="https://www.linkedin.com/in/marcos-kaynan-850528300/"
+               >
+                  <i class="bx bxl-linkedin-square"></i>
+               </a>
+               <a style="--i: 6" href="https://github.com/MarcoskDev">
+                  <i class="bx bxl-github"></i>
+               </a>
+               <a
+                  style="--i: 7"
+                  href="https://youtube.com/@marcosdev9391?si=tcH7pMV7oDVFXn0C"
+               >
+                  <i class="bx bxl-youtube"></i>
+               </a>
+            </div>
+         </div>
+         <img src="img/minha_logo.png" alt="" />
+      </main>
+
+      <section id="sobre" class="sobre">
+         <img
+            data-aos="fade-right"
+            datat-aos-duration="1000"
+            src="img/minha_logo.png"
+            alt=""
+         />
+         <div data-aos="fade-up" class="desc__sobre">
+            <h2>Sobre <span>mim</span></h2>
+            <p>
+               Olá, eu sou o Marcos Kayna, um desenvolvedor front-end apaixonado
+               por tecnologia e design. Com formação em Redes de Computadores
+               pelo IEMA Axixá, tenho expertise em criar interfaces web
+               intuitivas e responsivas. Minha abordagem criativa e meu
+               compromisso com a excelência me motivam a transformar ideias em
+               experiências digitais memoráveis. Estou sempre em busca de
+               desafios e oportunidades para crescer e contribuir com projetos
+               inovadores.
+            </p>
+
+            <div data-aos="fade-up" class="social__media">
+               <a href="#">Certificado</a>
+            </div>
+         </div>
+      </section>
+
+      <section id="habilidades" class="habilidades">
+         <h2
+            data-aos="fade-up"
+            data-aos-easing="linear"
+            data-aos-duration="300"
+         >
+            Minhas <span>habilidades</span>
+         </h2>
+         <div class="divPai__habilidade">
+            <div class="desc__habilidade">
+               <p
+                  data-aos="fade-up"
+                  data-aos-easing="linear"
+                  data-aos-duration="300"
+                  id="desc__tecnologias"
+               >
+                  Para visualizar, passe o mouse sobre as tecnologias do lado
+                  direito
+               </p>
+            </div>
+
+            <div class="container__habilidades">
+               <div
+                  data-aos="zoom-out"
+                  id="html"
+                  onmouseover="texto1()"
+                  class="box__habilidades"
+               >
+                  <i class="bx bxl-html5"></i>
+               </div>
+               <div data-aos="zoom-out" id="css" class="box__habilidades">
+                  <i class="bx bxl-css3"></i>
+               </div>
+               <div data-aos="zoom-out" id="js" class="box__habilidades">
+                  <i class="bx bxl-javascript"></i>
+               </div>
+               <div
+                  data-aos="zoom-out"
+                  id="TypeScript"
+                  class="box__habilidades"
+               >
+                  <i class="bx bxl-typescript"></i>
+               </div>
+               <div data-aos="zoom-out" id="react" class="box__habilidades">
+                  <i class="bx bxl-react"></i>
+               </div>
+               <div data-aos="zoom-out" id="vuejs" class="box__habilidades">
+                  <i class="bx bxl-vuejs"></i>
+               </div>
+               <div data-aos="zoom-out" id="figma" class="box__habilidades">
+                  <i class="bx bxl-figma"></i>
+               </div>
+               <div data-aos="zoom-out" id="github" class="box__habilidades">
+                  <i class="bx bxl-github"></i>
+               </div>
+               <div data-aos="zoom-out" id="git" class="box__habilidades">
+                  <i class="bx bxl-git"></i>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <section id="projetos" class="projetos">
+         <h2 data-aos="fade-down">Meus <span>projetos</span></h2>
+         <div class="container__projetos">
+            <div data-aos="fade-down" class="box__projeto">
+               <div class="capa__projeto">
+                  <img src="img/Tela-de-cadastro.png" alt="" />
+               </div>
+               <h3>Formulário de inscrição</h3>
+               <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste
+                  voluptas reprehenderit voluptatibus, neque velit tempora
+                  labore! Ipsum, tempora.
+               </p>
+               <div class="btns__projetos">
+                  <a
+                     href="https://marcoskdev.github.io/Formulario-de-inscricao-desafio-2-Trilhas-inova-Maranhao/"
+                     target="_blank"
+                     >Ver projeto</a
+                  >
+                  <a
+                     href="https://github.com/MarcoskDev/Formulario-de-inscricao-desafio-2-Trilhas-inova-Maranhao/tree/main"
+                     target="_blank"
+                     >Ver código</a
+                  >
+               </div>
+            </div>
+
+            <div data-aos="fade-down" class="box__projeto">
+               <div class="capa__projeto">
+                  <img src="img/em-breve.png" alt="" />
+               </div>
+               <h3>Nome</h3>
+               <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste
+                  voluptas reprehenderit voluptatibus, neque velit tempora
+                  labore! Ipsum, tempora.
+               </p>
+               <div class="btns__projetos">
+                  <a href="#">Ver projeto</a>
+                  <a href="#">Ver código</a>
+               </div>
+            </div>
+
+            <div data-aos="fade-down" class="box__projeto">
+               <div class="capa__projeto">
+                  <img src="img/em-breve.png" alt="" />
+               </div>
+               <h3>Nome</h3>
+               <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste
+                  voluptas reprehenderit voluptatibus, neque velit tempora
+                  labore! Ipsum, tempora.
+               </p>
+               <div class="btns__projetos">
+                  <a href="#">Ver projeto</a>
+                  <a href="#">Ver código</a>
+               </div>
+            </div>
+
+            <div data-aos="fade-down" class="box__projeto">
+               <div class="capa__projeto">
+                  <img src="img/em-breve.png" alt="" />
+               </div>
+               <h3>Nome</h3>
+               <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste
+                  voluptas reprehenderit voluptatibus, neque velit tempora
+                  labore! Ipsum, tempora.
+               </p>
+               <div class="btns__projetos">
+                  <a href="#">Ver projeto</a>
+                  <a href="#">Ver código</a>
+               </div>
+            </div>
+
+            <div data-aos="fade-down" class="box__projeto">
+               <div class="capa__projeto">
+                  <img src="img/em-breve.png" alt="" />
+               </div>
+               <h3>Nome</h3>
+               <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste
+                  voluptas reprehenderit voluptatibus, neque velit tempora
+                  labore! Ipsum, tempora.
+               </p>
+               <div class="btns__projetos">
+                  <a href="#">Ver projeto</a>
+                  <a href="#">Ver código</a>
+               </div>
+            </div>
+
+            <div data-aos="fade-down" class="box__projeto">
+               <div class="capa__projeto">
+                  <img src="img/em-breve.png" alt="" />
+               </div>
+               <h3>Nome</h3>
+               <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste
+                  voluptas reprehenderit voluptatibus, neque velit tempora
+                  labore! Ipsum, tempora.
+               </p>
+               <div class="btns__projetos">
+                  <a href="#">Ver projeto</a>
+                  <a href="#">Ver código</a>
+               </div>
+            </div>
+
+            <div data-aos="fade-down" class="box__projeto">
+               <div class="capa__projeto">
+                  <img src="img/em-breve.png" alt="" />
+               </div>
+               <h3>Nome</h3>
+               <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste
+                  voluptas reprehenderit voluptatibus, neque velit tempora
+                  labore! Ipsum, tempora.
+               </p>
+               <div class="btns__projetos">
+                  <a href="#">Ver projeto</a>
+                  <a href="#">Ver código</a>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <footer>
+         <img class="logo__alura" src="img/logo-alura.png" alt="" />
+         <p>
+            Desenvolvido por
+            <a href="https://www.instagram.com/marcoskdev/" target="_blank"
+               >@Marcosdev</a
+            >
+            para o desafio lançado pela
+            <a
+               href="https://www.alura.com.br"
+               target="_blank"
+               rel="noopener noreferrer"
+               >Alura</a
+            >
+            e
+            <a
+               href="https://www.inova.ma.gov.br/trilhas"
+               target="_blank"
+               rel="noopener noreferrer"
+               >Programa Trilhas Inova (2024.1)</a
+            >
+         </p>
+      </footer>
+
+      <script src="js/main.js"></script>
+      <script src="js/animacao-scroll.js"></script>
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+         AOS.init();
+      </script>
+   </body>
+</html>
